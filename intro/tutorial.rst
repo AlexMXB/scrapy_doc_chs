@@ -112,8 +112,8 @@ Spider是用户编写用于从单个网站(或者一些网站)爬取数据的类
        name = "dmoz"
        allowed_domains = ["dmoz.org"]
        start_urls = [
-           "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
-           "http://www.dmoz.org/Computers/Programming/Languages/Python/Resources/"
+           "http://dmoztools.net/Computers/Programming/Languages/Python/Books/",
+           "http://dmoztools.net/Computers/Programming/Languages/Python/Resources/"
        ]
 
        def parse(self, response):
